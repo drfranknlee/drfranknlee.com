@@ -1,0 +1,66 @@
+site_name: Dr Frank N Lee
+site_description: >-
+  Journey to the Frontier
+site_url: https://github.com/drfranknlee/drfranknlee.com
+site_author: Frank Lee
+repo_name: "drfranknlee.com"
+repo_url: https://github.com/drfranknlee/drfranknlee.com
+docs_dir: docs
+site_dir: public
+edit_uri: edit/master/docs
+theme:
+    name: material
+    logo: 
+    favicon: 
+    palette:
+      scheme: default
+      primary: black
+    font:
+      text: IBM Plex Sans
+      code: IBM Plex Mono
+    language: en
+    custom_dir: overrides
+    features:
+      - navigation.tabs
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs.sticky
+      - navigation.top
+      #- navigation.indexes
+use_directory_urls: true
+plugins:
+  - mkdocs-video
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: docs/snippets
+extra_css:
+    - css/extra.css
+    - css/toolkit-code.css
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: TBD
+
+copyright: Copyright © 2021 Frank Lee
+nav:
+  - Home: index.md
+  - About Me: about.md
+ 
+
+

@@ -1,0 +1,39 @@
+language: node_js
+
+node_js:
+  - '12.21.0'
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get purge python3-pip
+  - sudo apt-get install python3 python3-pip python3-setuptools
+  - npm install
+  - sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+  - sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+  - sudo update-alternatives  --set python /usr/bin/python3.6
+install:
+  - python -m pip install --upgrade --force-reinstall pip
+cache:
+  yarn: true
+  directories:
+    - node_modules
+stages:
+  - name: script
+    # Require the branch name to be master (note for PRs this is the base branch name) aa
+    if: branch = master
+
+script:
+    # Test a prod build on PR builds as well as master merges, to catch deployment issues before merging of PRs
+  - python -m pip install -r requirements.txt
+  - npm ci
+  - npm run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local_dir: public
+  github-url: github.ibm.com
+  on:
+    branch: master
