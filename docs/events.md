@@ -7,7 +7,7 @@
 | 2018-05-22 | Biocom San Diego | Workshop "How to Deploy A High Performance Data and AI Platform for Precision Medicine" | [Agenda](https://www.biocom.org/EventDetail/?event=IBM-Workshop-May18) | 
 | 2018-03-22 | Wayne State University Big Data Symposium | Keynote "Bigger and Better Data" | [Presentation PDF](rp/R200194/R200194-pdf.pdf) | 
 | 2018-01-23 | 2018 Precision Medicine World Congress      | Workshop "High Performance Data Analytics for Healthcare"    | [Speaker Info](https://past.pmwcintl.com/frank-lee-2018sv/)  | 
-| 2016-04-17 | [2016 Qatar Genome Programme Symposium] | "Sharing Data in the Era of Genomic Medicine" | [Symposium Site](https://www.qatargenome.org.qa/news-events/events/qgp-symposium-2016), [Agenda PDF](ev/E1016378/E1016378-agenda.pdf) | 
+| 2016-04-17 | 2016 Qatar Genome Programme Symposium | "Sharing Data in the Era of Genomic Medicine" | [Symposium Site](https://www.qatargenome.org.qa/news-events/events/qgp-symposium-2016), [Agenda PDF](ev/E1016378/E1016378-agenda.pdf) | 
 | 2016-04-01   | The 4th Annual LA Conference on Computational Biology & Bioinformatics (Xavier Convocation Center Annex)     | Keynote Speech on Genomics Architecture    |   | 
 | 2014-11-17                                     | Supercomputing 2014	New Orleans Convention Center      | IBM Lead Speaker on Genomics Computing Series    |   | 
 | 2014-06-19                                     | GTCbio Bioinformatics Conference  (Paradise Point Resort, San Diego)    | Featured Speaker: Building Large-scale Genomics Hub    |   | 
