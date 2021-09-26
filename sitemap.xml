@@ -10,4 +10,19 @@
          <lastmod>2021-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://github.com/drfranknlee/drfranknlee.com/contact/</loc>
+         <lastmod>2021-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/drfranknlee/drfranknlee.com/events/</loc>
+         <lastmod>2021-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/drfranknlee/drfranknlee.com/social/</loc>
+         <lastmod>2021-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
